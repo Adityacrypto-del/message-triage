@@ -1,0 +1,27 @@
+# ---------------------------------------------------------------------------
+# The supplied dataset must not be published. Everything in data/ is ignored
+# except the placeholder README that explains where to put the files locally.
+# ---------------------------------------------------------------------------
+data/*
+!data/README.md
+
+# Generated artefacts are reproducible from the dataset; keeping them out of
+# git also removes any chance of a masked-output file drifting into the repo
+# with an unmasked value in it.
+outputs/*.json
+outputs/*.csv
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+.venv/
+venv/
+env/
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
