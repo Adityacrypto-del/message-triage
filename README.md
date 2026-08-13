@@ -30,7 +30,7 @@ streamlit run app.py
 python -m pytest tests/ -v
 ```
 
-Live demo: **<paste your Streamlit Cloud URL here>**
+Live demo: **https://aditya-msgiq.streamlit.app**
 
 ---
 
